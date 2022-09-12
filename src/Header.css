@@ -1,0 +1,23 @@
+.header-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    background: var(--header-background-color);
+
+    padding: 3rem;
+    color:var(  --main-font-color);
+}
+
+img {
+    width: 12.8rem;
+    height: 4rem;
+    margin-left: 2.1rem; 
+    margin-right: 2.1rem; 
+}
+
+h2{
+    margin-left: 2.1rem; 
+    margin-right: 2.1rem; 
+}
