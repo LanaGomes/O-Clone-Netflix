@@ -7,6 +7,7 @@
     align-items: flex-start;
     justify-content: space-between;
     align-content: stretch;
+    
 
 }
 
@@ -17,6 +18,10 @@
     background-repeat: no-repeat;
     border-color: var(--body-background-color);
     background-size: cover;
-    
+    box-shadow: inset 3px 4px 10px #000;
 }
+
+
+
+
 

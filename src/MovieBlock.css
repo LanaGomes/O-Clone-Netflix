@@ -1,0 +1,11 @@
+.moviesBlock {
+    padding: 90px;
+    width: 20rem;
+    background-color: aliceblue;
+}
+
+.blockContainer {
+    display: flexbox;
+    flex-direction: row;
+    
+}

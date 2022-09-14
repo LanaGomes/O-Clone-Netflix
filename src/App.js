@@ -8,8 +8,8 @@ import BackgroundImage from "./BackgroundImage";
 function App() {
   return (
     <>
-      <Header></Header>
-      <BackgroundImage></BackgroundImage>
+      <Header />
+      <BackgroundImage />
     </>
   );
 }
