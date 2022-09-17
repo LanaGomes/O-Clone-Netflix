@@ -1,13 +1,14 @@
-import "./BackgroundImage.css";
+import "./BodyContainer.css";
 import MovieBlock from "./MovieBlock";
+import EmptyDivCo from "./EmptyDiv";
 
-function BackgroundImage() {
+function BodyContainer() {
   return (
     <div className="body-container">
       <div className="body-image">
         <section className="blockContainer">
           <p className="titleMovieBlock">Populares na Netflix</p>
-          <MovieBlock />
+          <EmptyDivCo />
           <MovieBlock />
           <MovieBlock />
         </section>
@@ -16,4 +17,4 @@ function BackgroundImage() {
   );
 }
 
-export default BackgroundImage;
+export default BodyContainer;

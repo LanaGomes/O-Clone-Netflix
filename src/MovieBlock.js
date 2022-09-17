@@ -5,7 +5,20 @@ import "./MovieBlock.css";
 function MovieBlock() {
   return (
     <>
-      <div className="moviesBlock">filme aqui</div>
+      <div className="containerBlock">
+        <header className="HeadercontainerMoviesBlock">
+          Visto Recentemente
+        </header>
+        <div className="containerMoviesBlock">
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+          <div className="movieBlock">filme aqui</div>
+        </div>
+      </div>
     </>
   );
 }

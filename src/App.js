@@ -3,13 +3,13 @@ import "./ColorsVariables.css";
 import "./App.css";
 import "./index.css";
 import Header from "./Header";
-import BackgroundImage from "./BackgroundImage";
+import BodyContainer from "./BodyContainer";
 
 function App() {
   return (
     <>
       <Header />
-      <BackgroundImage />
+      <BodyContainer />
     </>
   );
 }
