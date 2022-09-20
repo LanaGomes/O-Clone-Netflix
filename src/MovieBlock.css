@@ -2,23 +2,26 @@
     padding: 7rem 15rem 7rem 12rem; /*verificar se após colocar a imagem será necessário colocar width e height ao invés de padding*/
     width: 20rem;
     background-color: aliceblue;
+    margin: 3px;
 }
 
 .HeadercontainerMoviesBlock{
-    color: white;
+    color: rgb(39, 197, 21);
     font-size: 3rem;
 }
 
 .containerMoviesBlock{
     display: flex;
-    
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .containerBlock{
     height: 10rem;
+    margin-bottom: 12rem;
 }
 
 .emptyDiv{
-    height: 100rem;
+    height: 60rem;
     background-color: transparent;
 }

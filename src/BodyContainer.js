@@ -1,6 +1,6 @@
 import "./BodyContainer.css";
 import MovieBlock from "./MovieBlock";
-import EmptyDivCo from "./EmptyDiv";
+import EmptyDiv from "./EmptyDiv";
 
 function BodyContainer() {
   return (
@@ -8,7 +8,8 @@ function BodyContainer() {
       <div className="body-image">
         <section className="blockContainer">
           <p className="titleMovieBlock">Populares na Netflix</p>
-          <EmptyDivCo />
+          <EmptyDiv />
+          <MovieBlock />
           <MovieBlock />
           <MovieBlock />
         </section>

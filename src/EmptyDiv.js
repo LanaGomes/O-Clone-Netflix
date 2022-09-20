@@ -1,5 +1,3 @@
-import EmptyDiv from "./EmptyDiv";
-
 function EmptyDiv() {
   return (
     <>
