@@ -1,3 +1,4 @@
+import React from "react";
 import "./ColorsVariables.css";
 import "./Header.css";
 import logoNetflix from "./imagens/logoNetflix.png";

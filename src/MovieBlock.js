@@ -1,16 +1,20 @@
+import React from "react";
 import "./ColorsVariables.css";
+import ContainerBlock from "./ContainerBlock";
 import "./GeneralSets.css";
 import "./MovieBlock.css";
+import apiMovies from "./Api";
+import MovieNameAndPicture from "./MovieNameAndPicture";
 
-function MovieBlock() {
+function MovieBlock(props) {
   return (
     <>
-      <div className="containerBlock">
-        <header className="HeadercontainerMoviesBlock">
-          Visto Recentemente
-        </header>
+      <ContainerBlock
+        className="containerBlock"
+        tituloContainer={props.tituloContainer}
+      >
         <div className="containerMoviesBlock">
-          <div className="movieBlock">filme aqui</div>
+          <MovieNameAndPicture></MovieNameAndPicture>
           <div className="movieBlock">filme aqui</div>
           <div className="movieBlock">filme aqui</div>
           <div className="movieBlock">filme aqui</div>
@@ -18,7 +22,7 @@ function MovieBlock() {
           <div className="movieBlock">filme aqui</div>
           <div className="movieBlock">filme aqui</div>
         </div>
-      </div>
+      </ContainerBlock>
     </>
   );
 }
