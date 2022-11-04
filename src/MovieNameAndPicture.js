@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import apiMovies from "./Api";
+import apiMovies from "./components/Api";
 
 function MovieNameAndPicture() {
   return (
