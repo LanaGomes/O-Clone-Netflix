@@ -3,7 +3,7 @@ import "./ColorsVariables.css";
 import ContainerBlock from "./ContainerBlock";
 import "./GeneralSets.css";
 import "./MovieBlock.css";
-import apiMovies from "./components/Api";
+import apiMovies from "../components/Api.js";
 import MovieNameAndPicture from "./MovieNameAndPicture";
 
 function MovieBlock(props) {

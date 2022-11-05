@@ -1,9 +1,9 @@
 import React from "react";
-import "./GeneralSets.css";
-import "./ColorsVariables.css";
+import "./components/GeneralSets.css";
+import "./components/ColorsVariables.css";
 import "./App.css";
 import "./index.css";
-import Header from "./Header";
+import Header from "./components/Header";
 import BodyContainer from "./components/BodyContainer";
 
 function App() {

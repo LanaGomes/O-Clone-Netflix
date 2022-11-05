@@ -1,7 +1,7 @@
 import React from "react";
 import "./ColorsVariables.css";
 import "./Header.css";
-import logoNetflix from "./imagens/logoNetflix.png";
+import logoNetflix from "../imagens/logoNetflix.png";
 
 function Header() {
   return (

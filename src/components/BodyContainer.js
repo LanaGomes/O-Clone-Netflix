@@ -1,6 +1,6 @@
 import React from "react";
 import "./BodyContainer.css";
-import MovieBlock from "../MovieBlock";
+import MovieBlock from "./MovieBlock";
 import "../components/ColorsVariables.css";
 import EmptyDiv from "./EmptyDiv";
 
