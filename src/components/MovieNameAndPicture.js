@@ -4,7 +4,7 @@ import apiMovies from "../components/Api.js";
 function MovieNameAndPicture() {
   return (
     <>
-      <div>teste</div>
+      <div></div>
     </>
   );
 }

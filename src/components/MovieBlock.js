@@ -1,6 +1,6 @@
 import React from "react";
 import "./ColorsVariables.css";
-import ContainerBlock from "./ContainerBlock";
+import ContainerBlock from "../components/ContainerBlock";
 import "./GeneralSets.css";
 import "./MovieBlock.css";
 import apiMovies from "../components/Api.js";

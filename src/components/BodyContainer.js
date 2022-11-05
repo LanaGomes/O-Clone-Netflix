@@ -10,7 +10,7 @@ function BodyContainer() {
   async function loadMovies() {
     const httpResponse = await axios({
       method: "get",
-      url: "http://localhost:3001/movies/nextReleasesByYear",
+      url: "http://localhost:3000/movies/nextReleasesByYear",
       params: {
         year: 2022,
       },
