@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <Header />
-      <EmptyDiv></EmptyDiv>
       <BodyContainer></BodyContainer>
       <MovieBlock></MovieBlock>
       <MovieBlock></MovieBlock>

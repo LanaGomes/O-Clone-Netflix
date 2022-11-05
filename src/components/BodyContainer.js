@@ -10,29 +10,27 @@ function BodyContainer() {
   async function loadMovies() {
     const httpResponse = await axios({
       method: "get",
-      url: "http://localhost:3000/movies/nextReleasesByYear",
+      url: "http://localhost:3001/movies/nextReleasesByYear",
       params: {
         year: 2022,
       },
       headers: {},
     });
-
-    console.log(httpResponse);
-
-    return (
-      <div className="body-container">
-        <div className="body-image">
-          <section className="blockContainer">
-            <p className="titleMovieBlock">EmptyDivCo na Netflix</p>
-            <EmptyDiv />
-            <MovieBlock tituloContainer="Visto Recentemente1" />
-            <MovieBlock tituloContainer="Visto Recentemente2" />
-            <MovieBlock tituloContainer="Visto Recentemente3" />
-          </section>
-        </div>
-      </div>
-    );
   }
+
+  return (
+    <div className="body-container">
+      <div className="body-image">
+        <section className="blockContainer">
+          <p className="titleMovieBlock">EmptyDivCo na Netflix</p>
+          <EmptyDiv />
+          <MovieBlock tituloContainer="Visto Recentemente1" />
+          <MovieBlock tituloContainer="Visto Recentemente2" />
+          <MovieBlock tituloContainer="Visto Recentemente3" />
+        </section>
+      </div>
+    </div>
+  );
 }
 
 export default BodyContainer;
