@@ -4,7 +4,7 @@ import "./ColorsVariables.css";
 import "./App.css";
 import "./index.css";
 import Header from "./Header";
-import BodyContainer from "./BodyContainer";
+import BodyContainer from "./components/BodyContainer";
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <Header />
 
       <BodyContainer />
-      
     </>
   );
 }
